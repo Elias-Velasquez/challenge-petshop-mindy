@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Oswald&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <title>Mindy Petshop | ¡Bienvenidos!</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="shortcut icon" href="../assets/fav.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header class="d-flex d-sm-block">
+    <div class="top-header d-flex flex-wrap justify-content-center w-100 h-20">
+      <div class="d-flex justify-content-center align-items-center"><a
+          class="navbar-brand d-flex justify-content-center" href="index.html"><img src="../assets/mindy-logo2.png"
+            alt="" class="logo-doggo"></a></div>
+    </div>
+    
+    <div class="col-12 justify-content-center p-2" id="fondocarritoicono">
+      <a href="./carrito.html" class="d-flex flex-row justify-content-center deconone">
+        <i id="carritoicono" class="fa-solid fa-cart-shopping text-dark p-3"></i>
+      </a>
+    </div>
+
+    <nav class="nav-color w-100 d-flex flex-column navbar navbar-expand-lg ">
+      <div class="w-75 d-flex flex-column justify-content-center collapse navbar-collapse" id="navbarNavAltMarkup">
+        <button class="showNav navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="w-100 collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul id="ulNavbarNav" class="d-flex navbar-nav text-center sm:gap-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jugueteria.html">Jugueteria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="farmacia.html">Farmacia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="divNav">
+      <ul id="ulNav" class="nav-ul nav w-100 flex-column text-center visually-hidden position-absolute">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="jugueteria.html">Jugueteria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="farmacia.html">Farmacia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/carrousel1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark textcarousel">
+              <h5 class="texto_no_transparente">¡Bienvenidos a nuestra tienda!</h5>
+              <p class="texto_no_transparente">Compartimos el amor por nuestra querida Mindy con ustedes y sus
+                mascotitas</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/carrousel2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark textcarousel">
+              <h5 class="texto_no_transparente">¡Nos vamos a divertir!</h5>
+              <p class="texto_no_transparente">Brindamos un catálogo de juguetes para que puedas elegir el ideal</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/carrousel3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark textcarousel">
+              <h5 class="texto_no_transparente">¡Nos cuidamos entre todos!</h5>
+              <p class="texto_no_transparente">También podes contar con nuestra farmacia para la salud de nuestros
+                queridos animalitos</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <i class="fa-solid fa-circle-arrow-left h1 iconshadow" style="color: #64b6ac;"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <i class="fa-solid fa-circle-arrow-right h1 iconshadow" style="color: #64b6ac;"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row d-flex flex-column justify-content-evenly" id="cardsconteinercolour">
+        <div class="d-flex flex-column align-items-center mt-5" id="card1bg">
+          <div class="col-12 card" style="max-width: 940px;">
+            <div class="col-12 row g-0 d-flex flex-row align-items-center" id="card1main">
+              <div class="col-md-4  d-flex justify-content-center">
+                <img src="../assets/card1.png" class="img-fluid rounded-start col-11" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title titulo-card">¿Que es Mindy?</h5>
+                  <p class="card-text">Mindy representa muchas cosas.</p>
+                  <P>Para empezar, es el nombre de nuestra querida Schnauzer de 8 años. Con ella aprendimos sobre el
+                    amor incondicional a las mascotas. Hemos recorrido momentos de diversión absoluta y también de sumo
+                    cuidado de su salud.</P>
+                  <p>Con lo cuál nace Mindy Petshop. La tienda de mascotas que busca satisfacer dos aspectos de la vida
+                    de nuestros animales:</p>
+                  <ul class="d-flex flex-column">
+                    <li class="itemlist pt-1 pb-1">
+                      <a href="./jugueteria.html"><i style="color: antiquewhite"
+                          class="iconlist fa-solid fa-bone p-2"></i></a> El entretenimiento. Contamos con un catálogo
+                      variado de juguetes
+                    </li>
+                    <li class="itemlist pt-1 pb-1">
+                      <a href="./farmacia.html"><i style="color: antiquewhite"
+                          class="iconlist fa-solid fa-briefcase-medical p-2"></i></a> La salud. Ponemos a disposición
+                      del cliente productos farmaceuticos.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="d-flex flex-column justify-content-evenly align-items-center mt-5 mb-5" id="card2bg">
+          <div class="card" style="max-width: 940px;">
+            <div class="row g-0 d-flex justify-content-evenly align-items-center" id="card2main">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title titulo-card">¿Por que elegirnos?</h5>
+                  <p class="card-text">porque te entendemos, hemos estado en tu lugar</p>
+                  <P>Al principio, desconociamos el mundo de los animales y uno como dueño quiere tenerlos contentos y
+                    sanos. </P>
+                  <p>Mindy Petshop pretende acompañar a sus clientes y fomentar el bienestar de los animales generando
+                    comunidad entre todos. Animate a conocernos e interactuar con otros clientes</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="../assets/card2.png" class="img-fluid rounded-start col-11" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviewbg d-flex justify-content-evenly align-items-center pt-2">
+        <h6 class="texto_no_transparente">Nuestros Clientes</h6>
+        <div class="pb-2">
+          <a href="../html/contacto.html" class="btn btn-dark hover-overlay text-light boton">¡Unite a nuestra comunidad!</a>
+        </div>
+
+      </div>
+      <div class="d-sm-flex-column-col-12 flex-wrap col-12 d-flex justify-content-evenly pt-4 pb-4"
+        id="containerreview">
+        <div class="card m-2" style="max-width: 18rem;" id="reviewbg">
+          <div class="card-header border-0 dueño">Laura Marin</div>
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title">Frodo <i class="fa-solid fa-cat"></i></h5>
+            <img class="col-6 rounded-circle" src="../assets/frodo.png" alt="">
+            <p class="card-text">"Excelente atención, muy amorosos. Dieron justo en lo que mi Frodo necesitaba"</p>
+            <p><i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i
+                class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i></p>
+          </div>
+        </div>
+        <div class="card m-2" style="max-width: 18rem;" id="reviewbg2">
+          <div class="card-header border-0">Sebastian Medina</div>
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title">Donna <i class="fa-solid fa-dog"></i></h5>
+            <img class="col-6 rounded-circle" src="../assets/donna.png" alt="">
+            <p class="card-text">"Me sacaron de un gran apuro!! Super informativos y amables. La Donna está de 10!!"</p>
+            <p><i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i
+                class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i></p>
+          </div>
+        </div>
+        <div class="card m-2" style="max-width: 18rem;" id="reviewbg3">
+          <div class="card-header border-0 dueño">Lucas Manjon</div>
+          <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title">Suelen <i class="fa-solid fa-dog"></i></h5>
+            <img class="col-6 rounded-circle" src="../assets/suelen.png" alt="">
+            <p class="card-text">"Fui buscando cobre y encontre oro!! Me lleve mas de lo que tenía pensado comprar"</p>
+            <p><i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i
+                class="fa-solid fa-paw"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div id="footerTop">
+      <div class="footer_top_seccion_1 p-3">
+        <h4>PETSHOP MINDY</h4>
+        <img src="../assets/logo-centrado.png" alt="logo" class="img_footer mw-100 align-self-center">
+        <a href="https://goo.gl/maps/aSWZ9tLx9YLsvKW4A" class="m-1"><i class="fa-solid fa-location-dot fa-lg"></i> Rio
+          de Janeiro 300
+          (Caballito)</a>
+        <a href="tel:+54(011)38657516" class="m-1"><i class="fa-solid fa-phone  fa-lg"></i>+54(011)38657516</a>
+        <div id="redes_sociales_icon" class="mt-1">
+          <a class="redes" href="#" style="color: antiquewhite"><i class="fa-brands fa-facebook fa-xl"></i></a>
+          <a class="redes" href="#" style="color: antiquewhite"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        </div>
+      </div>
+
+      <div class="footer_top_seccion_2 p-3">
+        <h5>NAVEGACION</h5>
+        <a href="index.html">Inicio</a>
+        <a href="jugueteria.html">Jugueteria</a>
+        <a href="farmacia.html">Farmacia</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div class="p-3">
+        <form action="-" class="footer_top_seccion_1">
+          <label for="mail">
+            <h5>Suscribite para recibir las ultimas noticias!</h5>
+          </label>
+          <input type="email" name="email" id="mail" placeholder="salypimienta@gmail.com">
+          <input type="submit" id="suscribirse_boton" value="Suscribirme!" class="mt-1 align-self-center">
+        </form>
+      </div>
+    </div>
+
+
+    <div id="footerBot">
+      <h6>Copyright 2022 © GRUPO 5</h6>
+      <div>
+        <img src="../assets/logo-mercado-pago.png" id="mercado-pago-icon" alt="mercado-pago-logo">
+        <i class="fa-brands fa-paypal fa-2xl"></i>
+        <i class="fa-brands fa-cc-visa fa-2xl"></i>
+        <i class="fa-brands fa-cc-mastercard fa-2xl"></i>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/bb58454283.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../main.js"></script>
+</body>
+
+</html>

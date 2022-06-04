@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="shortcut icon" href="../assets/fav.ico" type="image/x-icon">
+  <title>Mindy Petshop | contacto</title>
+</head>
+
+
+
+<body>
+  <header class="d-flex d-sm-block">
+    <div class="top-header d-flex flex-wrap justify-content-center w-100 h-20">
+      <div class="d-flex justify-content-center align-items-center"><a class="navbar-brand d-flex justify-content-center" href="index.html"><img src="../assets/mindy-logo2.png" alt="" class="logo-doggo"></a></div>
+    </div>
+    
+    <div class="col-12 justify-content-center p-2" id="fondocarritoicono">
+      <a href="./carrito.html" class="d-flex flex-row justify-content-center deconone">
+        <i id="carritoicono" class="fa-solid fa-cart-shopping text-dark p-3"></i>
+      </a>
+    </div>
+
+    <nav class="nav-color w-100 d-flex flex-column navbar navbar-expand-lg ">
+        <div class="w-75 d-flex flex-column justify-content-center collapse navbar-collapse" id="navbarNavAltMarkup">
+          <button class="showNav navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="w-100 collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul id="ulNavbarNav" class="d-flex navbar-nav text-center sm:gap-5 ">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jugueteria.html">Jugueteria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="farmacia.html">Farmacia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+  <main id="main_contacto">
+    <div id="divNav">
+      <ul id="ulNav" class="nav-ul nav w-100 flex-column text-center visually-hidden position-absolute">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="jugueteria.html">Jugueteria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="farmacia.html">Farmacia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="row container-fluid col-4-lg" id="contenedorTarjetas">
+      <div class="card card text-bg-light mb-3 shadow" style="max-width: 20rem;">
+        <div class="card-header" style="background-color: #64b6ac91;"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path
+              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+          </svg></div>
+        <div class="card-body ">
+          <h5 class="card-title">Dirección</h5>
+          <p class="card-text">Rio de Jaineiro 300, Caballito, Buenos Aires</p>
+        </div>
+      </div>
+
+      <div class=" card card text-bg-light mb-3 shadow" style="max-width: 13rem;">
+        <div class="card-header" style="background-color: #64b6ac91;"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+          </svg></div>
+        <div class="card-body ">
+          <h5 class="card-title">E-Mail</h5>
+          <p class="card-text">info@petshopmindy</p>
+        </div>
+      </div>
+
+      <div class=" card card text-bg-light mb-3 shadow" style="max-width: 13rem;">
+        <div class="card-header" style="background-color: #64b6ac91"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            height="16" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
+          </svg></div>
+        <div class="card-body">
+          <h5 class="card-title">Llamanos!</h5>
+          <p class="card-text">(011) 38657516</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="formcontact container-fluid col-4-lg">
+        <div class="mapa ">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6567.392867651252!2d-58.4337257!3d-34.611837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca429815227f%3A0x5d302e497c2cda87!2sR%C3%ADo%20de%20Janeiro%20300%2C%20C1405CCB%20CABA!5e0!3m2!1ses!2sar!4v1653930197595!5m2!1ses!2sar"
+            width="317" height="345" style="border:0; margin-top: 1.5rem;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="mb-3 mt-4 border-radius formulario"
+          style="height: 25rem;">
+          <label for="exampleFormControlInput1" class="form-label"><b> Nombre:</b></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Maximo Ortiz">
+          <label for="exampleFormControlInput2" class="form-label"><b>Email:</b></label>
+          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+          <label for="exampleFormControlInput3" class="form-label"><b>Teléfono</b></label>
+          <input type="tel" class="form-control" id="exampleFormControlInput3" placeholder="0381-9999example">
+          <label for="exampleFormControlInput4" class="form-label"><b> Mascota</b></label>
+          <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="gato/perro">
+          <div>
+            <label for="exampleFormControlTextarea1" class="form-label m-1" style="margin-top:1rem ;"><b>Dejanos tu
+                comentario!</b> </label>
+            <textarea class="form-control" style="resize: none; height: 5vw" id="exampleFormControlTextarea1" rows="2"></textarea>
+
+            <button onclick="mostrar()" id="formButton"> Enviar comentario</button>
+            <script type="text/javascript">
+              function mostrar() {
+                swal('Mensaje enviado', 'con éxito', 'success');
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+  <footer>
+    <div id="footerTop">
+      <div class="footer_top_seccion_1 p-3">
+        <h4>PETSHOP MINDY</h4>
+        <img src="../assets/logo-centrado.png" alt="logo" class="img_footer mw-100 align-self-center">
+        <a href="https://goo.gl/maps/aSWZ9tLx9YLsvKW4A" class="m-1"><i class="fa-solid fa-location-dot fa-lg"></i> Rio de Janeiro
+          300
+          (Caballito)</a>
+        <a href="tel:+54(011) 38657516" class="m-1"><i class="fa-solid fa-phone  fa-lg"></i>+54(011) 38657516</a>
+        <div id="redes_sociales_icon" class="mt-1">
+          <a class="redes" href="#" style="color: antiquewhite"><i class="fa-brands fa-facebook fa-xl"></i></a>
+          <a class="redes" href="#" style="color: antiquewhite"><i class="fa-brands fa-instagram fa-xl"></i></a>
+        </div>
+      </div>
+
+      <div class="footer_top_seccion_2 p-3">
+        <h5>NAVEGACION</h5>
+        <a href="index.html">Inicio</a>
+        <a href="jugueteria.html">Jugueteria</a>
+        <a href="farmacia.html">Farmacia</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div class="p-3">
+        <form action="-" class="footer_top_seccion_1">
+          <label for="mail">
+            <h5>Suscribite para recibir las ultimas noticias!</h5>
+          </label>
+          <input type="email" name="email" id="mail" placeholder="salypimienta@gmail.com">
+          <input type="submit" id="suscribirse_boton" value="Suscribirme!" class="mt-1 align-self-center">
+        </form>
+      </div>
+    </div>
+
+
+    <div id="footerBot">
+      <h6>Copyright 2022 © GRUPO 5</h6>
+      <div>
+        <img src="../assets/logo-mercado-pago.png" id="mercado-pago-icon" alt="mercado-pago-logo">
+        <i class="fa-brands fa-paypal fa-2xl"></i>
+        <i class="fa-brands fa-cc-visa fa-2xl"></i>
+        <i class="fa-brands fa-cc-mastercard fa-2xl"></i>
+      </div>
+    </div>
+  </footer>
+  <!-- /////////////////////termina footter ////////////// -->
+
+  <script src="https://kit.fontawesome.com/bb58454283.js" crossorigin="anonymous"></script>
+  <script src="../contacto.js"></script>
+
+</body>
+
+</html>

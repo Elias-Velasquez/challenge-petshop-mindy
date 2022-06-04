@@ -1,0 +1,549 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*/////////// HEADER //////////*/
+.logo-doggo {
+    width: 15vw;
+}
+
+@media(max-width:576px) {
+    header {
+        height: fit-content;
+    }
+
+    header img {
+        width: 200px;
+    }
+}
+
+.top-header {
+    background-color: #fad4c0;
+}
+
+/*nav*/
+.nav-color {
+    background-color: #fad4c0;
+}
+
+.nav-ul {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    color: #000;
+    background-color: #fad4c0;
+    border-bottom: 1px solid #000;
+}
+
+.nav-ul a {
+    color: #000;
+}
+
+.navbar-nav {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 5px solid #000;
+    padding-bottom: 3px
+}
+
+#ulNav {
+    z-index: 100;
+}
+
+#fondocarritoicono{
+    background-color:  #fad4c0;
+}
+
+#carritoicono{
+    background-color: #bd9383;
+    border-radius: 40%;
+    box-shadow: 1px 5px 5px black;
+}
+
+#carritoicono:hover{
+    background-color: #C0FDFB;
+}
+
+
+/*//////////// MAIN //////////*/
+.titlecards{
+    background-color: #C0FDFB;
+    color: B09E99;
+    text-align: center;
+    margin: 0;
+}
+.filtro-check{
+    background-color: #C0FDFB;
+    display: flex;
+    justify-content: space-around;
+}
+#divSearch {
+    background-color: #C0FDFB;
+}
+#search {
+    padding: 0.25rem 0.50rem;
+    width: 15vw;
+}
+.form-check {
+    padding-right: 1rem;
+}
+main {
+    background-image: url(./assets/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#carouselExampleCaptions {
+    box-shadow: 1px 5px 5px black;
+}
+
+.textcarousel {
+    background-color: #64b6ac8d;
+    /* opacity: 0.6; */
+    box-shadow: 10px 5px 5px black;
+    font-weight: 900;
+}
+
+.iconshadow {
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px black;
+}
+
+#cardsconteinercolour {
+    background-image: url(./assets/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.itemlist {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.iconlist {
+
+    border-radius: 40%;
+    background-color: #64b6ac;
+    box-shadow: 1px 2px 5px black;
+    margin-right: 1rem;
+
+}
+
+.texto_no_transparente {
+    color: rgb(248, 246, 246);
+}
+
+#card1main, #card2main {
+
+    background-color: #FEE9E1;
+    box-shadow: 5px 5px 5px black;
+}
+
+.titulo-card {
+    color: white;
+    text-shadow: 2px 0 0 #64B6AC, -2px 0 0 #64B6AC, 0 2px 0 #64B6AC, 0 -2px 0 #64B6AC, 1px 1px #64B6AC, -1px -1px 0 #64B6AC, 1px -1px 0 #64B6AC, -1px 1px 0 #64B6AC;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+/* #card2main {
+    background-color: #FAD4C0;
+    box-shadow: 5px 5px 5px black;
+} */
+
+/* #containerreview {
+    background-color: #6c5c4d;
+
+} */
+
+.botonbg {
+    background-color: #64b6ac;
+}
+
+.boton {
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.reviewbg {
+    background-color: #64b6ac;
+    box-shadow: 5px 5px 20px;
+    opacity: 0.9;
+}
+
+#reviewbg {
+    background-color: #c0fdfb;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+
+#reviewbg2 {
+    background-color: #c0fdfb;
+    box-shadow: 5px 5px 5px black;
+}
+
+#reviewbg3 {
+    background-color: #c0fdfb;
+    box-shadow: 5px 5px 5px black;
+}
+
+.contMedicine {
+    width: 100%;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-rows: repeat(2,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.contToys {
+    width: 100%;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-rows: repeat(2,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    -webkit-box-shadow: 14px 20px 23px 2px rgba(173, 143, 111, 0.6) !important;
+    -moz-box-shadow: 14px 20px 23px 2px rgba(173, 143, 111, 0.6) !important;
+    box-shadow: 14px 20px 23px 2px rgba(173, 143, 111, 0.6) !important;
+}
+/* .card-body {
+    border-top: 0.01em solid #ccc
+} */
+#card {
+    height: 800px;
+}
+#btn-cards{
+    background-color: rgb(249, 224, 192) !important;
+}
+#formButton {
+    background-color: #64b6ac;
+    border: 3px solid #233e3b;
+}
+#formButton:active {
+    background-color: #509189;
+}
+/* efecto ultimas unidades */
+
+.parpadeo {
+    animation-name: parpadeo;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.parpadea {
+
+    animation-name: parpadeo;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: parpadeo;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes parpadeo {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+#main_carro {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones_carrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vw;
+    gap: 10vw;
+}
+
+#advertencia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.advertencia_titulo {
+    font-size: 4vw;
+}
+
+#perro_advertencia {
+    height: auto;
+    width: 100%;
+}
+/*////////////CONTACTO////////////*/
+
+#main_contacto {
+    height: 80%;
+    width: 100%;
+}
+
+#contenedorTarjetas {
+    display: flex;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+
+}
+
+#main_contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    background-color: #c0fdfb;
+    gap: 3vw;
+}
+
+.formulario {
+    width: 23vw;
+}
+
+textarea {
+    resize: none;
+    height: 5vh;
+}
+
+/*///////////////////// FOOTER TOP//////////////// */
+
+footer {
+    width: 100%;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_footer {
+    height: 20vh;
+    width: auto;
+}
+
+#footerTop {
+    min-height: fit-content;
+    background-color: #64B6AC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2vw;
+}
+
+#footerTop>div>a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.footer_top_seccion_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#redes_sociales_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: .5vw;
+}
+
+.redes {
+    border: .2vw solid antiquewhite;
+    border-radius: 3vw;
+    padding: .3vw;
+}
+
+.footer_top_seccion_2 {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 0.3vw solid antiquewhite;
+    border-right: 0.3vw solid antiquewhite;
+}
+
+
+
+/*///////////////////// FOOTER BOT//////////////// */
+
+#footerBot {
+
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1vw;
+    height: fit-content;
+}
+
+#suscribirse_boton {
+    width: fit-content;
+    padding: .5vw;
+    align-self: flex-end;
+}
+
+
+#mercado-pago-icon {
+    height: 3vw;
+}
+
+
+/* /////////////////MEDIA Q ////////////////*/
+
+@media (max-width: 576px) {
+    .filtro-check {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #divSearch {
+        width: 30rem;
+    }
+    #search {
+        padding: 0.25rem 0.50rem;
+        width: 50vw;
+    }
+    .formcontact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        width: 80vw !important;
+    }
+    .titulo-card {
+        font-weight: bold;
+        font-size: 6vw !important;
+    }
+    #fondocarritoicono {
+        width: 14vw;
+    }
+}
+
+@media (max-width : 768px) {
+    #search {
+        padding: 0.25rem 0.50rem;
+        width: 25vw;
+    }
+    #footerTop {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .footer_top_seccion_1 {
+        padding: 5vw;
+    }
+
+    .footer_top_seccion_2 {
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-left: none;
+        border-right: none;
+        border-top: 0.3vw solid antiquewhite;
+        border-bottom: 0.3vw solid antiquewhite;
+        padding: 4vw;
+    }
+
+    #suscribirse_boton {
+        width: 100%;
+        padding: .5vw;
+        align-self: flex-end;
+    }
+    .titulo-card {
+        font-weight: bold;
+        font-size: 3vw !important;
+    }
+}
+
+@media (max-width : 1200px) {
+    .footer_top_seccion_2 {
+        width: 25vw;
+    }
+
+    .formulario {
+        width: 40vw;
+    }
+    .titulo-card {
+        font-size: 2vw;
+    }
+}
